@@ -1,2 +1,3 @@
-# 50-Projects-50-days
-50 Projects 50 days - Review all html css and javascript concepts
+# 50-Vanilla-Projects
+
+50 Projects usgin vanilla javascript (html , css , javascript) - Review all html css and javascript concepts
