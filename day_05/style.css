@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapi.com/css?family=Ubuntu");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
 * {
   box-sizing: border-box;
@@ -7,10 +7,26 @@
 body {
   font-size: "Ubuntu", sans-serif;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 100vh;
   overflow: hidden;
   margin: 0;
+}
+
+.bg {
+  background: url("https://images.unsplash.com/photo-1482731215275-a1f151646268?ixid=MXwxMjA3fDB8MHxzZWFyY2h8M3x8d29ya2VyfGVufDB8fDB8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60")
+    no-repeat center center/cover;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  z-index: -1;
+  filter: blur(100px);
+}
+
+.loading-text {
+  font-size: 50px;
+  color: #fff;
 }
