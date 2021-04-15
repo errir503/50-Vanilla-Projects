@@ -3,6 +3,34 @@
 }
 
 body {
+  background-color: #efedd6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   overflow-x: hidden;
   margin: 0;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: steelblue;
+  color: #fff;
+  width: 400px;
+  height: 200px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+  transform: translateX(200%);
+  transition: transform 0.4s ease;
+}
+
+.box:nth-of-type(even) {
+  transform: translateX(-200%);
+}
+
+.box.show {
+  transform: translateX(0);
 }
